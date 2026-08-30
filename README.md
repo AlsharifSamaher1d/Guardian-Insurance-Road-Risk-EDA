@@ -21,6 +21,12 @@ The analysis is designed to answer practical questions relevant to road-risk and
 - Where are the major geographic accident hotspots?
 - How can these findings support underwriting, pricing, monitoring, and safety initiatives?
 
+## Dataset
+
+The dataset used in this case study is stored externally because the compressed file exceeds GitHub's browser upload limit.
+
+**[Download the Case Study Dataset from Google Drive](https://drive.google.com/file/d/10Uo4BIxfhESU4z7b47fsZIOE1gXqDM2G/view)**
+
 ## Data Preparation
 
 The notebook performs a structured cleaning workflow before analysis. Fully duplicated rows are removed, and duplicated `Record_ID` values are resolved by retaining the most complete record.
@@ -199,17 +205,19 @@ Business Insights & Risk Interpretation
 ```text
 Guardian-Insurance-Road-Risk-EDA/
 ├── README.md
-├── Guardian_Insurance_Road_Risk_EDA.ipynb
-└── Case-Study-Dataset.zip
+└── Guardian_Insurance_Road_Risk_EDA.ipynb
 ```
+
+> The dataset is hosted externally on Google Drive due to its file size.
 
 ## Running the Analysis
 
 1. Clone or download this repository.
-2. Extract `Case-Study-Dataset.zip`.
-3. Open `Guardian_Insurance_Road_Risk_EDA.ipynb` in Google Colab or Jupyter Notebook.
-4. Update the dataset path if necessary.
-5. Run the notebook cells in order.
+2. Download the dataset from the Google Drive link in the **Dataset** section above.
+3. Extract the downloaded dataset.
+4. Open `Guardian_Insurance_Road_Risk_EDA.ipynb` in Google Colab or Jupyter Notebook.
+5. Update the dataset path if necessary.
+6. Run the notebook cells in order.
 
 ## Author
 
